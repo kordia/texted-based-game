@@ -1,0 +1,9 @@
+body{
+    background-color: black;
+    color: red;
+    text-align: center;
+    font: 20px;
+}
+.picture{
+    padding-left: 300px;
+}

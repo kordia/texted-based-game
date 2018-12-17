@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>The Haunted Doors</title>
+</head>
+<body>
+    <div class= "title container">
+        <div class='row'>
+            <div class='col-sm-12'> 
+                <h1>The Haunted Doors</h1>
+                <p>Welcome to The Haunted Doors!</p>
+            </div> 
+        </div>
+    </div>
+    <div class= "play container">
+         <div class='row'>
+            <div class='col-sm-12'> 
+                <p>Please click PLAY to start your game!</p>
+                <form action= "#" onsubmit="event.preventDefault(); hauntedDoors()">
+                    <input type= "submit" value="PLAY">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class= "image container">
+        <div class='row'>
+            <div class='col-sm-12'> 
+                <div class="picture">
+                    <img class="img-responsive" src="images/door.png">
+                 </div>
+            </div>
+        </div>
+    </div>
+                
+        
+    <script>
+        function hauntedDoors() {
+
+            var answer = prompt("You arrive in a dark room. Do you want to enter Door 1 or Door 2?");
+            if (answer.toLowerCase() === "door 1") { //door 1
+
+                var answer = prompt('You entered Door 1. You see a Witch. Do you want to Scream or Run.');
+                if (answer.toLowerCase() === "scream") {
+                    alert("The witch captures you and locks you in a closet");
+                    alert("You beg the witch to let you go!");
+                    alert("The witch laughs at you.");
+                }
+                else if (answer.toLowerCase() === "run") {
+                    alert("The witch runs after you.");
+                    alert("You try your best to run away, but the witch gets her other friends,to come help capture you.");
+                    alert("You scream for help but no one hears you.")
+                }
+
+                var answer = prompt('What do you want to do Talk or Fight.');
+                if (answer.toLowerCase() === "talk") {
+                    alert("You ask the witch for a lighter. The witch gives you a lighter and ask you too stike it for her so she could cook her recipe.")
+                    alert("You scare the witch because she does not like the light from the lighter. ")
+                    alert("You trick the witch into letting you leave.");
+                }
+
+                else if (answer.toLowerCase() === "fight") {
+                    alert("You kick the witch and the witch falls down.")
+                    alert("You try to leave and the witch gets sad.")
+                    alert("The witch tries to be friends with you and starts cooking dinner.");
+                    alert("the witch makes a pot of blood and offers you some.");
+                    alert("You say no and escape from the window when the witch was not looking.");
+                }
+                 
+                var answer = prompt('You notice a lake and a hole in the ground. Which place do u pick?');
+                if (answer.toLowerCase() === "lake") {
+                    alert("You jump in the lake, hoping that the witch want find you.");
+                    alert("The witches fly over the lake hoping to find you.");
+                    alert("The sun rises from the sky. Then the witches gets scared and runs away.");
+                } 
+                
+                else if (answer.toLowerCase() === "hole") {
+                    alert("You crawl in the hole and cover your face.");
+                    alert("The witches looks for you in the hole.");
+                    alert("They find you and tie you in a tree.");
+                }
+                var answer = prompt('You notice a knife and a pair of scissors on the ground. Which do you pick? ');
+                if (answer.toLowerCase() === "knife") {
+                    alert("You notice a knife in the kitchen and jump on the table.");
+                    alert("One of the witches tries to make you get off the table and you stab the witch in her heart.");
+                    alert("All the witches flies away from you and you wake up out of your dream.");
+                }
+                 
+
+                else if (answer.toLowerCase() === "scissors") {
+                    alert("The witch and her friends start cooking you a potion of blood.")
+                    alert("You use your legs to get the scissors to your hands");
+                    alert("You cut the rope and run away home.");
+                }
+            }   
+            if(answer.toLocaleLowerCase() === "door 2") {
+            var answer = prompt('You entered Door 2. Do you pick up the apple or leave apple alone.');
+
+                if (answer.toLowerCase() === "pick up apple") {
+                    alert("You hear a loud noise.");
+                    alert("A wolf appears in the darkness.");
+                    alert("You are frightened by the wolf. The wolf growls at you with anger.");
+                }
+                else if (answer.toLowerCase() === "leave the apple alone") {
+                    alert("A Ghost appears behind you.");
+                    alert("You're surprised to see the Ghost.");
+                }
+                var answer = prompt('what do you want to do attack the wolf or drop the Apple.');
+                if (answer.toLowerCase() === "attack") {
+                    alert("The wolf is hungry and ready for a tasty treat.");
+                    alert("The wolf attacks and eats you alive.");
+                } 
+                
+                else if (answer.toLowerCase() === "drop the Apple.") {
+                    alert("You run out the haunted doors.");
+                    alert("The wolf chases after you.");
+                }
+                
+                var answer = prompt('What do you want to do run or strike.');
+                if (answer.toLowerCase() === "run") {
+                    alert("You run fast into the woods.");
+                    alert("A Ghost tries to find you, but loses hope, and goes around chasing other people.");
+                }
+                
+
+                else if (answer.toLowerCase() === "strike") {
+                    alert("You punch the Ghost in the face.");
+                    alert("The ghost pushes you down and buries you inside a grave.");
+                }
+                
+            }
+        }
+
+    </script>
+
+
+</body>
+</html>

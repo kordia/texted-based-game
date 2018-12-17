@@ -1,0 +1,60 @@
+    <ol>
+            <li>START</li>
+            <li>DISPLAY "Welcome the haunted Doors!"</li>
+            <li>Input Door 1 or Door 2</li>
+            <li>Set Door 1 or Door 2</li>
+            <li>Display Door 1</li>
+                <ol>
+                    <li>Set Door 1</li>
+                    <li>Input Scream or Run</li>
+                    <li>Display Scream</li>
+                </ol>
+                <ol>
+                    <li>Set Scream</li>
+                    <li>Display The Witch captures you and locks in a closet.</li>
+                    <li>Input The Witch captures you and locks in a closet.</li>
+                    <li>Display The witch laughs at you and cooks you for dinner.</li>
+                    <li>Input The witch laughs at you and cooks you for dinner.</li>
+                </ol>
+                    <li>Set Run</li>
+                    <li>Display The Witch runs after you. The sun rises from the sky. </li>
+                    <li>Input The Witch runs after you. The sun rises from the sky. </li>
+                    <li>Display The Witch laughs at you and cooks you for dinner.</li>
+                    <li>Input The Witch laughs at you and cooks you for dinner.</li>
+                </ol>
+            <li>Display Door 2</li>
+                <ol>
+                    <li>Set Door 2</li>
+                    <li>Input Pick up the apple or leave apple alone?</li>
+                    <li>Display Pick up Apple</li>
+                    <li>Input You hear a loud noise</li>
+                    <li>A wolf appears in the darkness</li>
+                    <li>Display Attack or  drop the apple</li>
+                <ol>
+                    <li>Display Attack</li>
+                    <li> Input The wolf attacks and eats you alive!</li>
+                </ol>
+                <ol>
+                    <li>Display Drop the Apple</li>
+                    <li>Input The wolf chasees after you and you run all the home</li>
+                </ol>
+                <ol>
+                    <li>Display Leave the Apple alone</li>
+                    <li>Input a ghost appears behind you</li>
+                    <li>Dispaly Run or Attack</li>
+                </ol>
+                <ol>
+                    <li>Dispaly Run</li>
+                    <li> Input Run fast into the woods</li>
+                    <li>Input the Ghost leaves you alone.</li>
+                </ol>
+                    
+                <ol>
+                    <li> Display attack</li>
+                    <li>Input You punch the Ghost and the ghost pushes you and bury in the ground. </li>
+                    <li>Input The Ghost goes back into his graveyard.</li>
+                </ol>
+        </ol>
+                
+            <li>END</li>
+        </ol>
